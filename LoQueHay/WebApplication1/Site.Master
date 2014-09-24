@@ -7,34 +7,55 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
-     
+     <link rel="stylesheet" href="Content/stylesheet.css" type="text/css" media="all">
 </head>
 <body>
     <form runat="server">
      
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <div id="page" >
-                <header id="header">
-                    <div>
+            <div id="page">
 
-                    </div>
-                </header>
-                <div id="slide">
-                    <div>
+                    <header id="header">
+                        <div>
+                            <section id="top-page">
+                                <div id="top-page-wrapp">
+                                    <div id="navigation">
+                                        <nav role="navigation">
+                                            <ul>
+                                                <li>
+                                                    <a href="">Inicio</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Popular</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">Contacto</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                     </div>
+                                </div>
+                            </section>
+                            <h1>na de na</h1>
+                        </div>
+                    </header>
+                    <div id="slide">
+                        <div>
 
+                        </div>
                     </div>
-                </div>
-                <div id="middle">
-                    <div>
+                    <div id="middle">
+                        <div>
 
+                        </div>
                     </div>
-                </div>
-                <footer id="footer">
-                    <div>
+                    <footer id="footer">
+                        <div>
 
-                    </div>
-                </footer>
+                        </div>
+                    </footer>
+
             </div>
     </form>
 </body>
