@@ -7,7 +7,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
-     <link rel="stylesheet" href="Content/stylesheet.css" type="text/css" media="all">
+    <link rel="stylesheet" href="Content/stylesheet.css" type="text/css" media="all">
+    <script src="Scripts/holder.js"></script>
 </head>
 <body>
     <form runat="server">
@@ -21,18 +22,21 @@
                             <section id="top-page">
                                 <div id="top-page-wrapp">
                                     <div id="navigation">
+                                        <div id="logo">
+                                            <img src="holder.js/100x45/gray/text:logo" />
+                                        </div>
                                         <nav role="navigation">
-                                            <ul>
-                                                <li>
-                                                    <a href="">Inicio</a>
-                                                </li>
-                                                <li>
-                                                    <a href="">Popular</a>
-                                                </li>
-                                                <li>
-                                                    <a href="">Contacto</a>
-                                                </li>
-                                            </ul>
+                                              <ul>
+                                                  <li>
+                                                      <a href="">Inicio</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="">Popular</a>
+                                                  </li>
+                                                  <li>
+                                                      <a href="">Contacto</a>
+                                                  </li>
+                                              </ul>
                                         </nav>
                                      </div>
                                 </div>

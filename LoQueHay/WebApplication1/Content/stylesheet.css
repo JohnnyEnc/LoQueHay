@@ -16,35 +16,42 @@ body {
 #top-page{
     width:100%;
     background-color:black;
-    height:34px;
+    height:45px;
 }
 #top-page-wrapp{
     width:980px;
     margin:0 auto;
-    height:34px;
+    height:45px;
 }
 
 #navigation{
     width:100%;
     margin:0 auto;
-    height:34px;
+    float:left;
+    height:45px;
+}
+
+#logo{
+
+    float:left;
+    height:45px;
 }
 
 nav{
     padding:0;
-    height:34px;
+    height:45px;
     float:left;
 }
 
 nav ul{
     float:left;
     position:relative;
-    height:34px;
+    height:45px;
 }
 
 nav ul li{
     float:left;
-    height:34px;
+    height:45px;
 }
 
 nav ul li:hover{
@@ -60,7 +67,7 @@ nav ul li a{
 	font-weight:bold;
 	color:white;
 	float: left;
-	padding: 10px 20px;
+	padding: 14px 20px;
 }
 
 
