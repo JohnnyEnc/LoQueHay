@@ -41,16 +41,93 @@
                                      </div>
                                 </div>
                             </section>
-                            <h1>na de na</h1>
                         </div>
                     </header>
-                    <div id="slide">
-                        <div>
-
-                        </div>
-                    </div>
                     <div id="middle">
-                        <div>
+                        <div id="general-content">
+                            <div id="primary-content">
+                                <div id="news-content">
+                                    <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                    <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                    <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                    <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                     <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                     <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                     <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                     <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                            
+                                     <div class="new">
+                                        <img src="holder.js/200x150/sky/text:Noticia" class="imgNew"/>
+                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
+                                        <span class="news-date">October 12 2015</span>
+                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                                        <a href="#" class="readMore">Read More...</a>
+                                
+                                    </div>
+                                </div>
 
                         </div>
                     </div>

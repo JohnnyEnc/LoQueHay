@@ -21,14 +21,13 @@ body {
 #top-page-wrapp{
     width:980px;
     margin:0 auto;
-    height:45px;
+    height:100%;
 }
 
 #navigation{
     width:100%;
     margin:0 auto;
     float:left;
-    height:45px;
 }
 
 #logo{
@@ -39,19 +38,18 @@ body {
 
 nav{
     padding:0;
-    height:45px;
     float:left;
 }
 
 nav ul{
     float:left;
     position:relative;
-    height:45px;
+    height:100%;
 }
 
 nav ul li{
     float:left;
-    height:45px;
+    height:100%;
 }
 
 nav ul li:hover{
@@ -75,4 +73,80 @@ nav ul li a{
 
 #header h1{
     font-size:small;
+}
+
+#middle{
+    width:980px;
+	margin:0 auto;
+	clear:both;
+	padding-bottom:10px;
+    
+	min-height: 600px;
+
+}
+
+#general-content {
+    width: 100%;
+    float: left;
+    background: #e7e7e7;
+    min-height: 610px;
+    box-shadow: 1px 2px 22px -13px black;
+    margin-top:5px;
+    /* border-right: 1px solid black; */
+}
+
+
+#primary-content{
+	width: 630px;
+	float:left;
+	min-height: 610px;
+	background: white;
+	box-shadow: 2px 0 4px -3px black;
+}
+
+#news-content {
+    float: left;
+    width: 100%;
+    min-height: 610px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.new {
+    float: left;
+    width: 620px;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 17px;
+}
+.news-title {
+    float: left;
+    margin-left: 13px;
+    width: 50%;
+    font-size: 18px;
+}
+.imgNew {
+    float: left;
+    background: white;
+    padding: 4px;
+    box-shadow: 0 0 9px -3px black;
+}
+.news-date {
+    float: left;
+    margin-left: 13px;
+    font-size: 12px;
+    width: 50%;
+    color: gray;
+    margin-bottom: 8px;
+}
+.new-description {
+    float: left;
+    width: 61%;
+    margin-left: 13px;
+    font-size: 14px;
+}
+.readMore {
+    float: right;
+    font-size: 12px;
+    width: 95px;
+    margin-top: 5px;
 }
