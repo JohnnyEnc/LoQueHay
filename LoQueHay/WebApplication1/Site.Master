@@ -11,109 +11,130 @@
     <script src="Scripts/holder.js"></script>
 </head>
 <body>
-    <form runat="server">
-     
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <div id="page">
+    <div id="page">
+        <header id="header">
+            <div>
+                <section id="top-page">
+                    <div id="top-page-wrapp">
+                        <div id="login-search">
+                            <div id="search-form">
+                                <form role="search" class="search-form" id="searchform" method="get">
+                                    <input type="search" placeholder="Search ..." id="search" value="" name="" class="field">
+                                    <input type="submit" value="Search" id="submit" class="submit">
+                                </form>
+                            </div>
 
-                    <header id="header">
-                        <div>
-                            <section id="top-page">
-                                <div id="top-page-wrapp">
-                                    <div id="navigation">
-                                        <div id="logo">
-                                            <img src="holder.js/100x45/gray/text:logo" />
-                                        </div>
-                                        <nav role="navigation">
-                                              <ul>
-                                                  <li>
-                                                      <a href="">Inicio</a>
-                                                  </li>
-                                                  <li>
-                                                      <a href="">Popular</a>
-                                                  </li>
-                                                  <li>
-                                                      <a href="">Contacto</a>
-                                                  </li>
-                                              </ul>
-                                        </nav>
-                                     </div>
-                                </div>
-                            </section>
                         </div>
-                    </header>
-                    <div id="middle">
-                        <div id="general-content">
-                            <div id="primary-content">
-                                <div id="news-content">
-                                    <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                    <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                    <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                    <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                     <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                     <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                     <div class="new">
-                                        <span class="news-title">Lorem ipsum dolor sit amet</span>
-                                        <span class="news-date">October 12 2015</span>
-                                        <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
-                                        <a href="#" class="readMore">Leer mas...</a>
-                                
-                                    </div>
-                            
-                                </div>
-
+                        <div id="logo">
+                            <img src="holder.js/100x45/gray/text:logo" />
+                        </div>
+                        <div id="navigation">
+                            <nav role="navigation">
+                                <ul>
+                                    <li>
+                                        <a href="">Inicio</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Noticias</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Videos</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Art&iacute;culos</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Memes</a>
+                                    </li>
+                                    <li>
+                                        <a href="">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contacto</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
-                    <footer id="footer">
-                        <div>
+                </section>
+            </div>
+        </header>
+        <div id="middle">
+            <div id="general-content">
+                <div id="primary-content">
+                    <div id="news-content">
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
 
                         </div>
-                    </footer>
 
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
+
+                        </div>
+
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
+
+                        </div>
+
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
+
+                        </div>
+
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
+
+                        </div>
+
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
+
+                        </div>
+
+                        <div class="new">
+                            <span class="news-title">Lorem ipsum dolor sit amet</span>
+                            <span class="news-date">October 12 2015</span>
+                            <span class="new-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu laoreet justo, eget fermentum ante. Etiam gravida, turpis et sollicitudin lacinia, justo mi rutrum libero, eget consectetur sapien purus volutpat lacus. Aliquam sed metus eget justo adipiscing facilisis.</span>
+                            <a href="#" class="readMore">Leer mas...</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
+            <footer id="footer">
+                <div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <form runat="server">
+
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>

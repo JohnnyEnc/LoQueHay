@@ -16,13 +16,45 @@ body {
 #top-page{
     width:100%;
     background-color:black;
-    height:45px;
+    height:150px;
 }
 #top-page-wrapp{
     width:980px;
     margin:0 auto;
     height:100%;
 }
+
+
+.search-form{
+	display: inline-block;
+	background: #fcfcfc;
+	border: 1px solid #dedede;
+	padding-right: 5px;
+	margin-top: -2px;
+}
+#searchform input[type=search] {
+	line-height: 14px;
+	float: left;
+	padding: 6px 7px 5px;
+	font-size: 11px;
+	color: #939393;
+	border: none;
+	background: none;
+	width: 175px;
+}
+#searchform input[type=submit] {
+	float: left;
+	margin: 6px 0 0 4px;
+	background: url(../images/toolbar_find.png) 0 0 no-repeat;
+	width: 15px;
+	height: 15px;
+	border: none;
+	padding: 0;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
 
 #navigation{
     width:100%;
