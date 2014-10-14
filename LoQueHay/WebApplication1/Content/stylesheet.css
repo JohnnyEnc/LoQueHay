@@ -108,7 +108,7 @@ nav ul li a{
     float: left;
     width: 100%;
     min-height: 610px;
-    padding-left: 10px;
+    padding-left: 0px;
     margin-top: 10px;
 }
 .new {
@@ -120,7 +120,7 @@ nav ul li a{
 }
 .news-title {
     float: left;
-    margin-left: 13px;
+    margin-left: 10px;
     width: 50%;
     font-size: 18px;
 }
@@ -132,7 +132,7 @@ nav ul li a{
 }
 .news-date {
     float: left;
-    margin-left: 13px;
+    margin-left: 10px;
     font-size: 12px;
     width: 50%;
     color: gray;
@@ -140,13 +140,13 @@ nav ul li a{
 }
 .new-description {
     float: left;
-    width: 61%;
-    margin-left: 13px;
+    width: 99%;
+    margin-left: 10px;
     font-size: 14px;
 }
 .readMore {
     float: right;
     font-size: 12px;
-    width: 95px;
+    width: 70px;
     margin-top: 5px;
 }
