@@ -16,7 +16,7 @@ body {
 #top-page{
     width:100%;
     background-color:black;
-    height:150px;
+    height: 170px;
 }
 #top-page-wrapp{
     width:980px;
@@ -58,22 +58,29 @@ body {
 
 div#login-search {
     width: 100%;
-    /* height: 100%; */
+    height: 33px;
     float: left;
 }
 
 #navigation{
     width:100%;
-    margin:0 auto;
     float:left;
+    margin-top: 3px;
 }
 
 #logo{
 
     float:left;
-    height:45px;
+    
+
+    height: 90PX;
+    
 }
 
+div#top-banner {
+    float: right;
+    height: 90px;
+}
 nav{
     padding:0;
     float:left;
@@ -103,7 +110,7 @@ nav ul li a{
 	font-weight:bold;
 	color:white;
 	float: left;
-	padding: 14px 20px;
+	padding: 13px 26px;
 }
 
 

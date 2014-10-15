@@ -26,7 +26,10 @@
 
                         </div>
                         <div id="logo">
-                            <img src="holder.js/100x45/gray/text:logo" />
+                            <img src="holder.js/200x90/gray/text:logo" />
+                        </div>
+                        <div id="top-banner">
+                            <img src="holder.js/400x90/sky/text:publicidad" />
                         </div>
                         <div id="navigation">
                             <nav role="navigation">
