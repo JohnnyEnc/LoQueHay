@@ -8,7 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
     <link rel="stylesheet" href="Content/stylesheet.css" type="text/css" media="all">
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.map"></script>
     <script src="Scripts/holder.js"></script>
+    <script src="Scripts/Cycle.js"></script>
 </head>
 <body>
     <div id="page">
@@ -65,6 +68,23 @@
         <div id="middle">
             <div id="general-content">
                 <div id="primary-content">
+                    <div class="slideShowBox">
+                        <div class="cycle-slideshow"
+                            data-cycle-fx="scrollHorz"
+                            data-cycle-timeout="2000"
+                            data-cycle-pager=".cycle-pager">
+                            <!-- empty element for pager links -->
+
+
+                            <img src="holder.js/630x213/gray/text:Slide1" data-cycle-title="Slide1" data-cycle-desc="Sonnenberg Gardens" />
+                            <img src="holder.js/630x213/lava/text:Slide2" data-cycle-title="Slide2" data-cycle-desc="Muir Woods National Monument" />
+                            <img src="holder.js/630x213/industrial/text:Slide3" data-cycle-title="Slide3" data-cycle-desc="San Franscisco Bay" />
+                            <img src="holder.js/630x213/social/text:Slide4" data-cycle-title="Slide4" data-cycle-desc="Adirondack State Park" />
+                            <div class="cycle-overlay"></div>
+                        </div>
+
+                        <div class="cycle-pager"></div>
+                    </div>
                     <div id="news-content">
                         <div class="new">
                             <span class="news-title">Lorem ipsum dolor sit amet</span>
