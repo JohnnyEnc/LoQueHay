@@ -126,14 +126,15 @@ nav ul li a{
 	clear:both;
 	padding-bottom:10px;
     
-	min-height: 600px;
+	
+    min-height: 1285px;
 
 }
 
 #general-content {
     width: 100%;
     float: left;
-    background: #e7e7e7;
+    /* background: #e7e7e7; */
     min-height: 610px;
     box-shadow: 1px 2px 22px -13px black;
     margin-top:5px;
@@ -195,6 +196,19 @@ nav ul li a{
     width: 70px;
     margin-top: 5px;
 }
+#secondary-content{
+    width:350px;
+    min-height:610px;
+    /* background-color:white; */
+    float:left;
+}
+
+#secondary-banner{
+    margin-left: 25px;
+
+    /* width: 100%; */
+}
+
 
 
 /*
@@ -286,4 +300,10 @@ nav ul li a{
     width: 100%;
     position: relative;
     height: 263px;
+}
+
+#footer{
+    width:100%;
+    background-color:black;
+    height:200px;
 }

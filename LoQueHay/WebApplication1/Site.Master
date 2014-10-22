@@ -145,13 +145,17 @@
                     </div>
 
                 </div>
-            </div>
-            <footer id="footer">
-                <div>
+                <div id="secondary-content">
+                    <div id="secondary-banner">
+                        <img src="holder.js/300x250/sky/text:publicidad" />
+                    </div>
                 </div>
-            </footer>
-
+            </div>
         </div>
+        <footer id="footer">
+            <div id="footer-wrapp">
+            </div>
+        </footer>
     </div>
 
     <form runat="server">
